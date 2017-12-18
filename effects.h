@@ -17,7 +17,7 @@ void torch() {
   injectRandom();
   calcNextEnergy();
   calcNextColors();
-  return 1;
+   
 }
 
 // RotatingPlasma
@@ -1425,7 +1425,7 @@ void drawAnalyzer() {
     effectInit = true;
     effectDelay = 10;
     fadingActive = true;
-    selectRandomPalette();
+    // selectRandomPalette();
   }
 
   CRGB pixelColor;
